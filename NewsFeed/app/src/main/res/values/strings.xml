@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <string name="list_title_place_holder">This Is The List Item Title Place Holder</string>
+    <string name="list_contriputer_place_holder">Mohamed Fadel</string>
+    <string name="list_date_place_holder">2018-02-02</string>
+    <string name="list_type_place_holder">Technology</string>
+
+    <string name="no_data">No New Events To Display Now</string>
+    <string name="no_connection">Check your internet and try again</string>
+
+    <string name="user_key">test</string>
+    <!-- Replace test with your key if you want-->
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Event Settings</string>
+    <string name="settings_min_news_default">10</string>
+    <string name="settings_min_news_key">news_number</string>
+    <string name="settings_min_magnitude_label">News Number</string>
+
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <string name="settings_order_by_most_oldest_label">Oldest</string>
+    <string name="settings_order_by_most_oldest_value" translatable="false">oldest</string>
+
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_newest_label</item>
+        <item>@string/settings_order_by_most_oldest_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_most_oldest_value</item>
+    </string-array>
+
+</resources>
